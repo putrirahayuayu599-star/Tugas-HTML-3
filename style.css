@@ -1,0 +1,452 @@
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
+
+.password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password a {
+    font-size: 12px;
+    text-decoration: none;
+    color: blue;
+}
+
+.password a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    height: 550px;
+    margin: 50px auto;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gambar {
+    width: 50%;
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-size: cover;
+    animation: gantiGambar 10s infinite;
+}
+
+@keyframes gantiGambar {
+
+    0%,
+    20% {
+        background-image: url(Gambar/JK8.jfif);
+    }
+
+    21%,
+    40% {
+        background-image: url(Gambar/JK3.jfif);
+    }
+
+    41%,
+    60% {
+        background-image: url(Gambar/download.jfif);
+    }
+
+    61%,
+    80% {
+        background-image: url(Gambar/JK11.jfif);
+    }
+
+    81%,
+    100% {
+        background-image: url(Gambar/KJ10.jfif);
+    }
+}
+
+.login {
+    width: 50%;
+    padding: 20px;
+}
+
+.login h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login p {
+    color: gray;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    padding: 10px 0;
+    margin-bottom: 25px;
+}
+
+button {
+    width: 300px;
+    padding: 12px;
+    background-color: #5a4fcf;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #4437b8;
+    transform: scale(1.1);
+}
+
+.akun {
+    text-align: center;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+#daftarr:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.akun a:hover {
+    color: black;
+}
+
+
+.masukkanemail {
+    text-align: left;
+    background-color: white;
+    border-radius: 20px;
+    margin: 100px;
+    padding: 50px;
+    box-shadow: 50px 50px 0px rgba(0, 0, 0, 0.2);
+    width: 600px;
+}
+
+.em input {
+    border-bottom: 0;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    width: 225px;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.masukkanemail p {
+    color: grey;
+}
+
+.masukkanemail a:hover {
+    text-decoration: underline;
+}
+
+#forgot {
+    background-image: url(Gambar/KJ13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#login {
+    background-image: url(Gambar/KJ13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.masukkanemail small {
+    color: grey;
+}
+
+
+.daftar h1 {
+    text-align: center;
+}
+
+.secdaftar {
+    background-color: rgb(from color r g b);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 50px auto;
+    width: 50%;
+}
+
+.secdaftar form {
+    text-align: center;
+    padding: 25px;
+}
+
+
+#daftarakun {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: "Lilita One", cursive;
+}
+
+#back {
+    background-color: aliceblue;
+    color: black;
+}
+
+.secdaftar ::placeholder {
+    text-align: center;
+}
+
+.secdaftar input {
+    border-radius: 10px;
+    padding-left: 15px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#daftar {
+    background-image: url(Gambar/KJ13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.masukkanemail {
+    background-color: beige;
+}
+
+
+.btn-nav {
+    background-color: transparent;
+    color: #000000;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+    transform: none !important;
+    transition: none !important;
+}
+
+.btn-nav:hover {
+    background-color: rgb(6, 28, 124);
+    color: white;
+    transform: none !important;
+}  
+
+#beranda {
+    background-image: url(Gambar/KJ13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#nav{
+    padding: 50px ;
+}
+
+.hr{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    color: #000000;
+}
+
+#beranda{
+    background-image: url(Gambar/KJ13.jpg);
+    height: 50%;
+
+    backdrop-filter: blur(2px);
+    
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.home h1{
+    color: rgb(6, 28, 124);
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 8px 20px rgb(255, 255, 255);;
+}
+
+.home p{
+    color: #000000;
+
+}
+
+.home a{
+    color: red;
+}
+
+#click{
+    color: rgb(6, 28, 124);
+}
+
+.tblkoleksi{
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+.tautan a{
+    color: red;
+}
+
+.tautan a:hover{
+    color:rgb(6, 28, 124);
+    text-decoration: underline;
+}
+
+#koleksi{
+    background-image: url(Gambar/KJ13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#koleksi h1{
+    color: rgb(6, 28, 124);
+    text-align: center;
+}
+
+#koleksi{
+    background-image: url(Gambar/KJ13.jpg);
+    height: 50%;
+
+    backdrop-filter: blur(10px);
+    
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+#koleksi table{
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+.about{
+    background-image: url(Gambar/KJ13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.abo{
+    background-color: #a6a4b9;
+    backdrop-filter: blur(1000px);
+    border:#000000;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 10px;
+    width: 900px;
+    height: 300px;
+    box-shadow: 0px 8px 20px black;
+}
+
+.abo:hover{
+    background-color: white;
+}
+
+.abo h1{
+    text-align: center;
+}
+
+.apa #a:hover{
+    background-color: #81a5b9;
+}
+.apa #b:hover{
+    background-color: #778ca0;
+}
+.apa #c:hover{
+    background-color: #525cb3;
+}
+.apa #d:hover{
+    background-color: rgb(113, 123, 179);
+}
+.apa #e:hover{
+    background-color: #d2b0ff;
+}
+.apa #f:hover{
+    background-color: #97e8f7;
+}
+.apa #g:hover{
+    background-color: #94b6ca;
+}
+.apa #h:hover{
+    background-color: #9febf5;
+}
+.apa #i:hover{
+    background-color: #ad84fa;
+}
+.apa #j:hover{
+    background-color: #4db5e6;
+}
+.apa #k:hover{
+    background-color: #babcc2;
+}
+.apa #l:hover{
+    background-color: #cec6fd;
+}
+.apa #m:hover{
+    background-color: #c090ff;
+}
+.apa #n:hover{
+    background-color: #8a82f7;
+}
+.apa #o:hover{
+    background-color: #ad9af5;
+}
+.apa #p:hover{
+    background-color: #97afcf;
+}
+.apa #q:hover{
+    background-color: #748eaf;
+}
+.apa #r:hover{
+    background-color: #9eaecc;
+}
+.apa #s:hover{
+    background-color: #bcc3df;
+}
+.apa #t:hover{
+    background-color: #69bcf3;
+}
+.apa #u:hover{
+    background-color: #b2a4e5;
+}
+.apa #v:hover{
+    background-color: #b7e1f1;
+}
+.apa #w:hover{
+    background-color: #4924d1;
+}
